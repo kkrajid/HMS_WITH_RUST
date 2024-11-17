@@ -1,0 +1,15 @@
+[package]
+name = "hospital_management_system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+sea-orm = { version = "0.9", features = ["sqlx-postgres", "runtime-actix-native-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+dotenv = "0.15"
+env_logger = "0.9"
+jsonwebtoken = "8.1"
+argon2 = "0.4"
+chrono = "0.4"
+actix-web-httpauth = "0.8"
